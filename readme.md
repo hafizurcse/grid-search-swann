@@ -1,4 +1,4 @@
 # run
 ```
-python src/main.py abanzqzdrroornrn
+python src/main.py resource/words.txt abanzqzdrroornrn
 ```
