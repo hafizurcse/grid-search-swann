@@ -1,0 +1,54 @@
+Write a program to find all words from a word list file (such as /usr/share/dict/words or /usr/dict/words) that can be found in a 4x4 grid of letters. The grid should be given as input to the program. Specify the grid as one 16-character argument or 16 1-character arguments to the program or in some other reasonable way.
+
+ 
+
+Problem Details
+
+======================
+
+A word can be found in a grid by starting on any letter, then moving to an adjacent letter and so on.
+
+Example 1.
+
+A  b   a  n
+
+z  q   z   d
+
+r   r   o   o
+
+r   n  r    n
+
+The word "abandon" fits in the grid first horizontally, then vertically down. The word "ran" does NOT fit in the grid because 'r' and 'a' are not adjacent.
+
+A word cannot use a specific letter in the grid more than once.
+
+Implementation Details
+
+Your program should not print any word more than once. Your program can assume that the word list file contains no duplicated words and that the input arguments are valid
+Your program should be tolerant of word files that contain a mixture of upper and lower case words.
+Your output should be a list of matching words separated by newlines.
+If it's easy to do, please specify the grid on the command line as the last argument or arguments and print the results to the standard output.
+Sample run:
+
+An example program run might be:
+
+Python3 test.py  /usr/share/dict/words abanzqzdrroornrn
+
+...
+
+abandon
+
+...
+
+ 
+
+Please ensure you finish within 2 hours of receiving this mail. The system would be expecting a reply by 1:00 pm. So please ensure you submit whatever you have ready by 1:00 pm.
+
+Responses after 1:00 pm are ignored.
+
+Ensure the code is object oriented.
+It should work in Python environment or Nodejs environment or C++ environment
+Has the best time complexity which you can achieve.
+No plagiarism of code. You can refer to Google / Stackoverflow for ideas to solve small parts of the solution / code.
+Please push to Github
+Please have a readme file with the compiler/interpreter version mentioned as well as the usage.
